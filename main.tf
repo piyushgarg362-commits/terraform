@@ -62,7 +62,6 @@ cidr_blocks = [var.ssh_allowed_cidr]
 }
 egress {
 from_port = 0
-Jenkins + Terraform + AWS | Student Project Guide Page 5
 to_port = 0
 protocol = "-1"
 cidr_blocks = ["0.0.0.0/0"]
