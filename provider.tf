@@ -5,7 +5,8 @@ terraform {
       version = "~> 6.0"
     }
   }
-  provider "aws" {
-    region = us-east-2
-  }
 }
+provider "aws" {
+  region = "us-east-2"
+}
+

@@ -93,7 +93,7 @@ resource "aws_security_group" "web" {
   }
 
   tags = {
-    Name = "${var.jenkins-project}-sg"
+    Name = "${var.project_name}-sg"
   }
 }
 
